@@ -1,0 +1,32 @@
+# Rails todo
+
+## Description
+This is a rails API for storing, creating, and listing… TODOS!
+There are todos and status(complete) in the table.
+Comeplete is set to 'fasle' by default
+
+## Ruby version
+ 2.2.1
+
+## Modules
+>> datebase (migration table): create_todos.rb (located in db/migrate)
+>> Models: todo.rb (located in models)
+>> controllers: todos.rb (located in controllers/concerns)
+>> routes.rb (located in config)
+>> seeds .rb (located in db)
+>> Germfile
+
+## Object
+### Search
+ You can serch the todos and check it status on website 'http://localhost:3000/todos'.
+ When you insert 'http://localhost:3000/todos', it will show you the whole list.
+ You can also search by id number, like "http://localhost:3000/todos/1".
+ When the id doesn't exit, it will show you the erro.
+ when you search for 'http://localhost:3000/todos/new',it will show you an empty todo.
+
+### update
+ You can update the todo name and status on Postman, like add todo name or change the comeplete into 'true'.
+
+### delete
+ You can update the todo name and status on Postman by id number, then it will show you this item was destroyed.
+

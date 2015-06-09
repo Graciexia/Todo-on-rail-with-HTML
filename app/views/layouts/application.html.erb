@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<div align="center">
+<body>
+  <header>
+    <span class ="topic"><h1>To DO List</h1></span>
+    <span class ="nav"><a href="/todos">All in my list</a>
+    <a href="/todos/completed">Completed</a>
+    <a href='/todos/uncompleted'>Uncompleted</a></span>
+  </header>
+
+
+<%= yield %>
+<footer>
+  <a>  Life is tough </a>
+  </footer>
+</body>
+</div>
+</html>

@@ -1,0 +1,71 @@
+// Place all the styles related to the Todos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+background-color: pink;
+
+}
+
+header {
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer {
+   font-size: 35px;
+   font-family: "Comic Sans MS", cursive, sans-serif;
+   color: green
+}
+
+.topic {
+  color: green;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 30px
+}
+
+.nav {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 18px
+
+}
+
+.title {
+  color: blue;
+  font-family: "Comic Sans MS", cursive, sans-seri;
+  font-size: 22px
+}
+
+.info {
+  color: grey;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 430px
+}
+
+.uncomplete {
+  color: yellow;
+  font-family: "Comic Sans MS", cursive, sans-seri;
+  font-size: 22px
+}
+
+.complete {
+  color: orange;
+  font-family: "Comic Sans MS", cursive, sans-seri;
+  font-size: 22px
+}
+
+.view {
+  text-align: right;
+  font-size: 17px;
+  padding-right: 400px
+}
+
+.delete {
+  text-align: right;
+  font-size: 17px;
+  padding-right: 400px
+
+}
+
